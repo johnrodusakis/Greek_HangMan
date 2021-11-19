@@ -1,0 +1,16 @@
+STEP 1:
+Ανοίγετε το cmd και πληκτρολογείτε:
+
+>>pip install PyQt5
+
+>>pip install pyqt5-tools
+
+STEP 2:
+Ανοίγετε το visual studio 2019 και κάνετε Updates (αμα χρειάζεται)
+θα χρειαστεί εγκατάσταση για python αμα δεν εχει ήδη γίνει.
+
+STEP 3:
+View > Other Windows > Python Environments menu command.
+Δεξιά θα υπάρχει ενα dropbox που θα γράφει "Overview" επιλέξτε "Packages (PyPi)"
+και επειτα πληκτρολογίστε το ονομα του αρχειου π.χ. pygame
+και κατεβάστε το προτυνόμενο install.

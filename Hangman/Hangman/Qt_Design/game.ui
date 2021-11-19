@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::RightToLeft</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(40, 40, 40);</string>
+  </property>
+  <widget class="QPushButton" name="A_Button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Α</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="B_Button">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Β</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="G_Button">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Γ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="D_Button">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Δ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="E_Button">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ε</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Z_Button">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ζ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="H_Button">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Η</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="U_Button">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Θ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="I_Button">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ι</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="K_Button">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Κ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="L_Button">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Λ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="M_Button">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>480</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Μ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="N_Button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ν</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="J_Button">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ξ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="O_Button">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ο</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="P_Button">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Π</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="R_Button">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ρ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="S_Button">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Σ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="T_Button">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Τ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Y_Button">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Υ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="F_Button">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Φ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="X_Button">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Χ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Q_Button">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ψ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="W_Button">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>540</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ω</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="photo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Images/Kremala_1.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_GameOver">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+font: 36pt &quot;Cooper Black&quot;;
+color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>GAME OVER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>10</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 15pt &quot;Copperplate Gothic Bold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Lives Remain: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lives">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>10</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 15pt &quot;Copperplate Gothic Bold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>10</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Score">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 15pt &quot;Copperplate Gothic Bold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 15pt &quot;Copperplate Gothic Bold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Score:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="playAgain_Button">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>150</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(40, 40, 40);
+background-color: rgb(185, 122, 87);
+font: 26pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Play Again</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mainMenu_Button">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>240</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(40, 40, 40);
+background-color: rgb(185, 122, 87);
+font: 26pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Main Menu</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitGame_Button">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>330</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(40, 40, 40);
+background-color: rgb(185, 122, 87);
+font: 26pt &quot;Cooper Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Exit Game</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>280</y>
+     <width>811</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>X X X X X X X X X X X X X X X X X X X X X X X X X</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Won">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>70</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+font: 26pt &quot;Cooper Black&quot;;
+color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>YOU WON!!!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Lost">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>70</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);
+font: 26pt &quot;Cooper Black&quot;;
+color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>YOU LOST!!!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_OnWin">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>280</y>
+     <width>811</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 200, 0);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>X X X X X X X X X X X X X X X X X X X X X X X X X</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_OnLose">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>280</y>
+     <width>811</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(200, 0, 0);
+font: 900 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>X X X X X X X X X X X X X X X X X X X X X X X X X</string>
+   </property>
+  </widget>
+  <zorder>photo</zorder>
+  <zorder>label_OnWin</zorder>
+  <zorder>label_</zorder>
+  <zorder>label_OnLose</zorder>
+  <zorder>A_Button</zorder>
+  <zorder>B_Button</zorder>
+  <zorder>G_Button</zorder>
+  <zorder>D_Button</zorder>
+  <zorder>E_Button</zorder>
+  <zorder>Z_Button</zorder>
+  <zorder>H_Button</zorder>
+  <zorder>U_Button</zorder>
+  <zorder>I_Button</zorder>
+  <zorder>K_Button</zorder>
+  <zorder>L_Button</zorder>
+  <zorder>M_Button</zorder>
+  <zorder>N_Button</zorder>
+  <zorder>J_Button</zorder>
+  <zorder>O_Button</zorder>
+  <zorder>P_Button</zorder>
+  <zorder>R_Button</zorder>
+  <zorder>S_Button</zorder>
+  <zorder>T_Button</zorder>
+  <zorder>Y_Button</zorder>
+  <zorder>F_Button</zorder>
+  <zorder>X_Button</zorder>
+  <zorder>Q_Button</zorder>
+  <zorder>W_Button</zorder>
+  <zorder>label</zorder>
+  <zorder>label_lives</zorder>
+  <zorder>label_Score</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_GameOver</zorder>
+  <zorder>playAgain_Button</zorder>
+  <zorder>mainMenu_Button</zorder>
+  <zorder>exitGame_Button</zorder>
+  <zorder>label_Won</zorder>
+  <zorder>label_Lost</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
